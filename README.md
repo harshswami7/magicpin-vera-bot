@@ -126,7 +126,7 @@ For POST requests, use an HTTP client such as PowerShell, curl, or Postman.
 
 Example request structure:
 
-```text
+
 POST <endpoint>
 Content-Type: application/json
 
@@ -152,6 +152,9 @@ endpoints.
 Multi-turn handling explicitly detects canned auto-replies, opt-outs/hostility,
 clear action intent, and off-topic requests.
 
+Files
+bot.py — submission bot + HTTP server
+submission.jsonl — canonical test-pair output
 Files
 bot.py — submission bot + HTTP server
 submission.jsonl — canonical test-pair output
