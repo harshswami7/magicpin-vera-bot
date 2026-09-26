@@ -7,7 +7,7 @@
 ### GET Endpoints
 
 - [GET /v1/healthz]( https://magicpin-vera-bot-bvyh.onrender.com/v1/healthz)
-- [GET /v1/metadata]( https://magicpin-vera-bot-bvyh.onrender.comm/v1/metadata)
+- [GET /v1/metadata]( https://magicpin-vera-bot-bvyh.onrender.com/v1/metadata)
 
 ### POST Endpoints
 
