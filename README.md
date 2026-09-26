@@ -135,7 +135,7 @@ Content-Type: application/json
 Opening a POST endpoint directly in a browser is not a valid POST test because
 the browser performs a GET request.
 
-Approach
+# Approach
 
 This submission uses a deterministic, context-aware rule-based composer. It
 combines CategoryContext, MerchantContext, TriggerContext, and optional
@@ -152,7 +152,7 @@ endpoints.
 Multi-turn handling explicitly detects canned auto-replies, opt-outs/hostility,
 clear action intent, and off-topic requests.
 
-Files
+# Files
 bot.py — submission bot + HTTP server
 submission.jsonl — canonical test-pair output
 Files
