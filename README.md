@@ -2,19 +2,48 @@
 
 ## Live API
 
-**Base URL:**  https://magicpin-vera-bot-bvyh.onrender.com
+# Magicipin Vera Bot
 
-### GET Endpoints
+## Deployed API
 
-- [GET /v1/healthz]( https://magicpin-vera-bot-bvyh.onrender.com/v1/healthz)
-- [GET /v1/metadata]( https://magicpin-vera-bot-bvyh.onrender.com/v1/metadata)
+Base URL:
+https://magicipin-vera-bot-bvyh.onrender.com
 
-### POST Endpoints
+## API Endpoints
 
-- [POST /v1/context]( https://magicpin-vera-bot-bvyh.onrender.com/v1/context)
-- [POST /v1/tick]( https://magicpin-vera-bot-bvyh.onrender.com/v1/tick)
-- [POST /v1/reply]( https://magicpin-vera-bot-bvyh.onrender.com/v1/reply)
+### GET
 
+#### Health Check
+GET /v1/healthz
+
+Full URL:
+https://magicipin-vera-bot-bvyh.onrender.com/v1/healthz
+
+#### Metadata
+GET /v1/metadata
+
+Full URL:
+https://magicipin-vera-bot-bvyh.onrender.com/v1/metadata
+
+### POST
+
+#### Context
+POST /v1/context
+
+Full URL:
+https://magicipin-vera-bot-bvyh.onrender.com/v1/context
+
+#### Tick
+POST /v1/tick
+
+Full URL:
+https://magicipin-vera-bot-bvyh.onrender.com/v1/tick
+
+#### Reply
+POST /v1/reply
+
+Full URL:
+https://magicipin-vera-bot-bvyh.onrender.com/v1/reply
 ## Approach
 
 This submission uses a deterministic, context-aware rule-based composer. It combines CategoryContext, MerchantContext, TriggerContext, and optional CustomerContext to generate concise WhatsApp messages without inventing facts.
